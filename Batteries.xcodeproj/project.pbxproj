@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DCE9167295BCC2A00888A06 /* BatteriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE9166295BCC2A00888A06 /* BatteriesApp.swift */; };
+		5DCE9169295BCC2A00888A06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE9168295BCC2A00888A06 /* ContentView.swift */; };
+		5DCE916B295BCC2E00888A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCE916A295BCC2E00888A06 /* Assets.xcassets */; };
+		5DCE916F295BCC2E00888A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCE916E295BCC2E00888A06 /* Preview Assets.xcassets */; };
+		5DCE9179295BCC2E00888A06 /* BatteriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE9178295BCC2E00888A06 /* BatteriesTests.swift */; };
+		5DCE9183295BCC2E00888A06 /* BatteriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE9182295BCC2E00888A06 /* BatteriesUITests.swift */; };
+		5DCE9185295BCC2E00888A06 /* BatteriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE9184295BCC2E00888A06 /* BatteriesUITestsLaunchTests.swift */; };
+		5DCE9192295BEE7D00888A06 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE9191295BEE7D00888A06 /* SettingsView.swift */; };
+		5DCE9198295BF59A00888A06 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE9197295BF59A00888A06 /* HomeView.swift */; };
+		5DCE919A295BF87200888A06 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE9199295BF87200888A06 /* AddView.swift */; };
+		5DCE919C295C075D00888A06 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE919B295C075D00888A06 /* Devices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DCE9175295BCC2E00888A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DCE915B295BCC2A00888A06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCE9162295BCC2A00888A06;
+			remoteInfo = Batteries;
+		};
+		5DCE917F295BCC2E00888A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DCE915B295BCC2A00888A06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCE9162295BCC2A00888A06;
+			remoteInfo = Batteries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DCE9163295BCC2A00888A06 /* Batteries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Batteries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCE9166295BCC2A00888A06 /* BatteriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteriesApp.swift; sourceTree = "<group>"; };
+		5DCE9168295BCC2A00888A06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DCE916A295BCC2E00888A06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DCE916C295BCC2E00888A06 /* Batteries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Batteries.entitlements; sourceTree = "<group>"; };
+		5DCE916E295BCC2E00888A06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DCE9174295BCC2E00888A06 /* BatteriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCE9178295BCC2E00888A06 /* BatteriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteriesTests.swift; sourceTree = "<group>"; };
+		5DCE917E295BCC2E00888A06 /* BatteriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCE9182295BCC2E00888A06 /* BatteriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteriesUITests.swift; sourceTree = "<group>"; };
+		5DCE9184295BCC2E00888A06 /* BatteriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DCE9191295BEE7D00888A06 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5DCE9197295BF59A00888A06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5DCE9199295BF87200888A06 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		5DCE919B295C075D00888A06 /* Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DCE9160295BCC2A00888A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCE9171295BCC2E00888A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCE917B295BCC2E00888A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DCE915A295BCC2A00888A06 = {
+			isa = PBXGroup;
+			children = (
+				5DCE9165295BCC2A00888A06 /* Batteries */,
+				5DCE9177295BCC2E00888A06 /* BatteriesTests */,
+				5DCE9181295BCC2E00888A06 /* BatteriesUITests */,
+				5DCE9164295BCC2A00888A06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DCE9164295BCC2A00888A06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DCE9163295BCC2A00888A06 /* Batteries.app */,
+				5DCE9174295BCC2E00888A06 /* BatteriesTests.xctest */,
+				5DCE917E295BCC2E00888A06 /* BatteriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCE9165295BCC2A00888A06 /* Batteries */ = {
+			isa = PBXGroup;
+			children = (
+				5DCE9166295BCC2A00888A06 /* BatteriesApp.swift */,
+				5DCE9168295BCC2A00888A06 /* ContentView.swift */,
+				5DCE9197295BF59A00888A06 /* HomeView.swift */,
+				5DCE9199295BF87200888A06 /* AddView.swift */,
+				5DCE9191295BEE7D00888A06 /* SettingsView.swift */,
+				5DCE919B295C075D00888A06 /* Devices.swift */,
+				5DCE916A295BCC2E00888A06 /* Assets.xcassets */,
+				5DCE916C295BCC2E00888A06 /* Batteries.entitlements */,
+				5DCE916D295BCC2E00888A06 /* Preview Content */,
+			);
+			path = Batteries;
+			sourceTree = "<group>";
+		};
+		5DCE916D295BCC2E00888A06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DCE916E295BCC2E00888A06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DCE9177295BCC2E00888A06 /* BatteriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DCE9178295BCC2E00888A06 /* BatteriesTests.swift */,
+			);
+			path = BatteriesTests;
+			sourceTree = "<group>";
+		};
+		5DCE9181295BCC2E00888A06 /* BatteriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DCE9182295BCC2E00888A06 /* BatteriesUITests.swift */,
+				5DCE9184295BCC2E00888A06 /* BatteriesUITestsLaunchTests.swift */,
+			);
+			path = BatteriesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DCE9162295BCC2A00888A06 /* Batteries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCE9188295BCC2E00888A06 /* Build configuration list for PBXNativeTarget "Batteries" */;
+			buildPhases = (
+				5DCE915F295BCC2A00888A06 /* Sources */,
+				5DCE9160295BCC2A00888A06 /* Frameworks */,
+				5DCE9161295BCC2A00888A06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Batteries;
+			productName = Batteries;
+			productReference = 5DCE9163295BCC2A00888A06 /* Batteries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DCE9173295BCC2E00888A06 /* BatteriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCE918B295BCC2E00888A06 /* Build configuration list for PBXNativeTarget "BatteriesTests" */;
+			buildPhases = (
+				5DCE9170295BCC2E00888A06 /* Sources */,
+				5DCE9171295BCC2E00888A06 /* Frameworks */,
+				5DCE9172295BCC2E00888A06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DCE9176295BCC2E00888A06 /* PBXTargetDependency */,
+			);
+			name = BatteriesTests;
+			productName = BatteriesTests;
+			productReference = 5DCE9174295BCC2E00888A06 /* BatteriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DCE917D295BCC2E00888A06 /* BatteriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCE918E295BCC2E00888A06 /* Build configuration list for PBXNativeTarget "BatteriesUITests" */;
+			buildPhases = (
+				5DCE917A295BCC2E00888A06 /* Sources */,
+				5DCE917B295BCC2E00888A06 /* Frameworks */,
+				5DCE917C295BCC2E00888A06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DCE9180295BCC2E00888A06 /* PBXTargetDependency */,
+			);
+			name = BatteriesUITests;
+			productName = BatteriesUITests;
+			productReference = 5DCE917E295BCC2E00888A06 /* BatteriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DCE915B295BCC2A00888A06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5DCE9162295BCC2A00888A06 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5DCE9173295BCC2E00888A06 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5DCE9162295BCC2A00888A06;
+					};
+					5DCE917D295BCC2E00888A06 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5DCE9162295BCC2A00888A06;
+					};
+				};
+			};
+			buildConfigurationList = 5DCE915E295BCC2A00888A06 /* Build configuration list for PBXProject "Batteries" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DCE915A295BCC2A00888A06;
+			productRefGroup = 5DCE9164295BCC2A00888A06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DCE9162295BCC2A00888A06 /* Batteries */,
+				5DCE9173295BCC2E00888A06 /* BatteriesTests */,
+				5DCE917D295BCC2E00888A06 /* BatteriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DCE9161295BCC2A00888A06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCE916F295BCC2E00888A06 /* Preview Assets.xcassets in Resources */,
+				5DCE916B295BCC2E00888A06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCE9172295BCC2E00888A06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCE917C295BCC2E00888A06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DCE915F295BCC2A00888A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCE9192295BEE7D00888A06 /* SettingsView.swift in Sources */,
+				5DCE9198295BF59A00888A06 /* HomeView.swift in Sources */,
+				5DCE919A295BF87200888A06 /* AddView.swift in Sources */,
+				5DCE9169295BCC2A00888A06 /* ContentView.swift in Sources */,
+				5DCE9167295BCC2A00888A06 /* BatteriesApp.swift in Sources */,
+				5DCE919C295C075D00888A06 /* Devices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCE9170295BCC2E00888A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCE9179295BCC2E00888A06 /* BatteriesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCE917A295BCC2E00888A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCE9185295BCC2E00888A06 /* BatteriesUITestsLaunchTests.swift in Sources */,
+				5DCE9183295BCC2E00888A06 /* BatteriesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DCE9176295BCC2E00888A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DCE9162295BCC2A00888A06 /* Batteries */;
+			targetProxy = 5DCE9175295BCC2E00888A06 /* PBXContainerItemProxy */;
+		};
+		5DCE9180295BCC2E00888A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DCE9162295BCC2A00888A06 /* Batteries */;
+			targetProxy = 5DCE917F295BCC2E00888A06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DCE9186295BCC2E00888A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DCE9187295BCC2E00888A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5DCE9189295BCC2E00888A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Batteries/Batteries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Batteries/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbtq.Batteries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DCE918A295BCC2E00888A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Batteries/Batteries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Batteries/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbtq.Batteries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DCE918C295BCC2E00888A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbtq.BatteriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Batteries.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Batteries";
+			};
+			name = Debug;
+		};
+		5DCE918D295BCC2E00888A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbtq.BatteriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Batteries.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Batteries";
+			};
+			name = Release;
+		};
+		5DCE918F295BCC2E00888A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbtq.BatteriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Batteries;
+			};
+			name = Debug;
+		};
+		5DCE9190295BCC2E00888A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbtq.BatteriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Batteries;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DCE915E295BCC2A00888A06 /* Build configuration list for PBXProject "Batteries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCE9186295BCC2E00888A06 /* Debug */,
+				5DCE9187295BCC2E00888A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCE9188295BCC2E00888A06 /* Build configuration list for PBXNativeTarget "Batteries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCE9189295BCC2E00888A06 /* Debug */,
+				5DCE918A295BCC2E00888A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCE918B295BCC2E00888A06 /* Build configuration list for PBXNativeTarget "BatteriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCE918C295BCC2E00888A06 /* Debug */,
+				5DCE918D295BCC2E00888A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCE918E295BCC2E00888A06 /* Build configuration list for PBXNativeTarget "BatteriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCE918F295BCC2E00888A06 /* Debug */,
+				5DCE9190295BCC2E00888A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DCE915B295BCC2A00888A06 /* Project object */;
+}
