@@ -13,7 +13,6 @@ struct DeviceList: Identifiable {
     var icon: String
     var battery: Int
 }
-// Bathalatyaa
 
 func deviceCount() -> Int {
     var count = 0
