@@ -106,7 +106,6 @@ struct HomeView: View {
                     }
                 }
             }
-            
             .navigationTitle("Devices")
         }
         .searchable(text: $searchText, prompt: "Search for device")

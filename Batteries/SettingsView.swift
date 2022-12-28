@@ -9,7 +9,27 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            Form {
+                Section (header: Text("Appearance")) {
+                    List {
+                        NavigationLink (destination: Text("App Theme")) {
+                            Image(systemName: "circle.lefthalf.filled")
+                                .symbolRenderingMode(.palette)
+                                .foregroundColor(Color(UIColor.black))
+                            Text("App Theme")
+                        }
+                        NavigationLink (destination: Text("Accent Color")) {
+                            Image(systemName: "paintpalette.fill")
+                                .symbolRenderingMode(.multicolor)
+                                .foregroundColor(Color(UIColor.black))
+                            Text("Accent Color")
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Settings")
+        }
     }
 }
 
