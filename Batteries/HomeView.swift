@@ -24,6 +24,30 @@ func deviceCount() -> Int {
     return count
 }
 
+func batteryStatus(batteryPercentage: Int) -> Int {
+    if (batteryPercentage <= 5) {
+        return 1
+    }
+    else if (batteryPercentage <= 10) {
+        return 2
+    }
+    else if (batteryPercentage <= 20) {
+        return 3
+    }
+    else if (batteryPercentage <= 50) {
+        return 4
+    }
+    else if (batteryPercentage <= 85) {
+        return 5
+    }
+    else if (batteryPercentage <= 100) {
+        return 6
+    }
+    else {
+        return 0
+    }
+}
+
 struct HomeView: View {
     @State private var searchText = ""
     
@@ -65,35 +89,34 @@ struct HomeView: View {
                                 VStack(alignment: .leading) {
                                     Text(item.name)
                                     HStack {
-                                        if (item.battery <= 5) {
+                                        switch batteryStatus(batteryPercentage: item.battery) {
+                                        case(1):
                                             Image(systemName: "battery.0")
                                                 .symbolRenderingMode(.palette)
                                                 .foregroundColor(Color(UIColor.systemRed))
-                                        }
-                                        else if (item.battery <= 10) {
+                                        case(2):
                                             Image(systemName: "battery.25")
                                                 .symbolRenderingMode(.palette)
                                                 .foregroundColor(Color(UIColor.systemRed))
-                                        }
-                                        else if (item.battery <= 20) {
+                                        case(3):
                                             Image(systemName: "battery.25")
                                                 .symbolRenderingMode(.palette)
                                                 .foregroundColor(Color(UIColor.systemYellow))
-                                        }
-                                        else if (item.battery <= 50) {
+                                        case(4):
                                             Image(systemName: "battery.50")
                                                 .symbolRenderingMode(.palette)
                                                 .foregroundColor(Color(UIColor.label))
-                                        }
-                                        else if (item.battery <= 75) {
+                                        case(5):
                                             Image(systemName: "battery.75")
                                                 .symbolRenderingMode(.palette)
                                                 .foregroundColor(Color(UIColor.label))
-                                        }
-                                        else if (item.battery <= 100) {
+                                        case(6):
                                             Image(systemName: "battery.100")
                                                 .symbolRenderingMode(.palette)
                                                 .foregroundColor(Color(UIColor.label))
+                                        default:
+                                            Text("N/A")
+                                            
                                         }
                                         Text(String(item.battery) + "%")
                                             .font(.footnote)
